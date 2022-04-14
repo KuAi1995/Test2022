@@ -13,6 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Test2022"
-include ':app'
 include ':AIDL:oneapp'
 include ':AIDL:anotherapp'
+include ':AIDL:TwoAppAndNoAIDL:clientapplication'
+include ':AIDL:TwoAppAndNoAIDL:serverapplication'

@@ -29,6 +29,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnUnbindService"
-        android:text="接触绑定外部服务"/>
+        android:text="解除绑定外部服务"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是另一个数据中的数据"
+        android:id="@+id/etInput"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同步该数据到绑定的服务中"
+        android:id="@+id/btnSync"/>
+
 
 </LinearLayout>
